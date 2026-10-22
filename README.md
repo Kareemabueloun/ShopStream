@@ -1,16 +1,64 @@
-# React + Vite
+# ShopStream – Frontend E-Commerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+ShopStream is a responsive frontend e-commerce website built with React. Customers can browse products, search the catalog, explore product categories, view product details, manage a shopping cart, and proceed through checkout. The application also includes login and registration pages, a customer profile, and an admin dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project uses the DummyJSON API for demo product and user data. Some client-side information, such as locally registered accounts and order data, is stored in the browser's local storage.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Bootstrap and Bootstrap
+- React Router
+- Axios
+- Redux Toolkit and React Redux
+- React Hot Toast
+- React Icons
+- DummyJSON API
+- Browser local storage
 
-## Expanding the ESLint configuration
+## Installation Steps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install Node.js and npm.
+2. Open a terminal in the project folder, where `package.json` is located.
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in the terminal.
+
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+## Links
+
+- **Live Website:** https://shop-stream-nu.vercel.app
+- **GitHub Repository:** https://github.com/Kareemabueloun/ShopStream
+
+## Demo Accounts
+
+### Admin Account
+
+- **Username:** `admin`
+- **Password:** `Admin@123`
+- **Access:** Admin dashboard
+
+### Regular User Account
+
+- **Username:** `emilys`
+- **Password:** `emilyspass`
+- **Access:** Regular customer experience
+
